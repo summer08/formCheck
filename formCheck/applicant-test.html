@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/applicant-author.css">
+</head>
+<body>
+	<div class="applicant">
+		<div class="wid1000">
+			<div class="applicant-box">
+				<div class="applicant-form">
+					<div class="form-item">
+						<label><i class="icons"></i>笔名：</label>
+						<input type="text" placeholder="必填（不得抄袭，涉黄，涉政)"  name="name" required data-empty='亲，笔名不能为空哦' data-error="亲，格式有误请正确填写哦" data-ajax="name">
+						<span class="icons-success"></span>
+						<span class="check-info"><em></em><p class="text">亲，笔名已被占用，换一个吧。</p></span>
+					</div>
+
+					<div class="form-item">
+						<label><i class="icons"></i>手机号：</label>
+						<input type="text" placeholder="必填" name="tel" maxlength="11" required data-empty='亲，手机号不能为空哦' data-error="亲，格式有误请正确填写哦" data-regexp="tel">
+						<span class="icons-success"></span>
+						<span class="check-info"><em></em><p class="text">亲，格式有误请正确填写哦</p></span>
+					</div>
+
+					<div class="form-item">
+						<label><i class="icons"></i>qq：</label>
+						<input type="text" placeholder="必填qq" name="qq" required data-empty='亲，qq不能为空哦' data-error="亲，格式有误请正确填写哦"   data-regexp="qq">
+						<span class="icons-success"></span>
+						<span class="check-info"><em></em><p class="text">亲，11格式有误请正确填写哦</p></span>
+					</div>
+
+					<div class="form-item">
+						<label><i></i>邮箱：</label>
+						<input type="text" placeholder="选填">
+					</div>
+
+					<div class="form-checkbox">
+						<label><input type="checkbox" required />已获悉并同意</label>
+					</div>
+					 <input type="hidden" value="" name="uid"/>
+					<div class="form-btn">
+						<button disabled="disabled" data-submit-btn >立即注册</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="assets/js/jquery.1.7.2.min.js"></script>
+	<script src="assets/js/author-jsCom.js"></script>
+</body>
+</html>
