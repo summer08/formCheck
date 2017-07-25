@@ -1,4 +1,3 @@
-//require(['jquery'],function($){
 	function checkForm(options){
 		var defaults = {
 			regexp:{
@@ -150,4 +149,3 @@
 			}
 		}
 	})
-//});
